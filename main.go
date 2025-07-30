@@ -12,5 +12,5 @@ func Bark(Str string) string {
 }
 
 func Meow(Str string) string {
-	return fmt.Sprintf(" %s is doing meow meow", Str)
+	return fmt.Sprintf(" %s is doing meow meow changing to version v1.3.0", Str)
 }
