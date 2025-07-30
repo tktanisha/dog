@@ -1,6 +1,5 @@
 package dog
 
-
 import "fmt"
 
 func Greet(str string) string {
@@ -8,3 +7,6 @@ func Greet(str string) string {
 
 }
 
+func Bark(Str string) string {
+	return fmt.Sprintf(" %s is doing bhow bhow", Str)
+}
